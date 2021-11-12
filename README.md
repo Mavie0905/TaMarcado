@@ -10,5 +10,5 @@ Um calendário onde os administradores (professores) podem adicionar eventos e a
 `@Gar6z`: Desenvolvedor de Software (Outras funções: Criar os diagramas)  
 Kauê Xavier: Desenvolvedor de Software (Outras funções: Organizar a documentação)  
 `@Mavie0905`: Designer (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas)  
-Michel Cardoso: Analista de Software (Outras funções: Organizar a documentação)   
+`@Javak13`: Analista de Software (Outras funções: Organizar a documentação)   
 `@PedroCLCabral`: DBA (Outras funções: Organizar a documentação)  
