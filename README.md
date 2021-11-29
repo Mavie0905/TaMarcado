@@ -7,8 +7,8 @@ Foi pensando nisso que surgiu a necessidade da elaboração de um produto que or
 Um calendário onde os administradores (professores) podem adicionar eventos e atividades para que eles possam se organizar e entrar em um acordo para distribuir as tarefas de forma homogênea.
  
 ### ESPECIFICAÇÃO DO PAPEL DE CADA MEMBRO DA EQUIPE:
-`@Gar6z`: Desenvolvedor de Software (Outras funções: Criar os diagramas)  
-Kauê Xavier: Desenvolvedor de Software (Outras funções: Organizar a documentação)  
-`@Mavie0905`: Designer (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas)  
-`@Javak13`: Analista de Software (Outras funções: Organizar a documentação)   
-`@PedroCLCabral`: DBA (Outras funções: Organizar a documentação)  
+`@Gar6z`(José Garcês)          : Desenvolvedor de Software (Outras funções: Criar os diagramas)  
+`@Kazinho09`(Kauê)             : Desenvolvedor de Software (Outras funções: Organizar a documentação)  
+`@Mavie0905`(Mateus Vieira)    : Designer (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas)  
+`@Javak13`(Michel)             : Analista de Software (Outras funções: Organizar a documentação)   
+`@PedroCLCabral`(Pedro Cabral) : DBA (Outras funções: Organizar a documentação)  
