@@ -8,9 +8,10 @@ Um calendário onde os administradores (professores) podem adicionar eventos e a
  
 ### ESPECIFICAÇÃO DO PAPEL DE CADA MEMBRO DA EQUIPE:
 |Username        |Nome do Aluno    | Função                       |
-|--------------- |-----------------|------------------------------|
-|`@Gar6z`        |(José Garcês)    | Desenvolvedor de Software (Outras funções: Criar os diagramas) | 
-|`@Kazinho09`    |(Kauê)           | Desenvolvedor de Software (Outras funções: Organizar a documentação) | 
-|`@Mavie0905`    |(Mateus Vieira)  | Designer (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas) | 
-|`@Javak13`      |(Michel)         | Analista de Software (Outras funções: Organizar a documentação) | 
-|`@PedroCLCabral`|(Pedro Cabral)   | DBA (Outras funções: Organizar a documentação) | 
+|:--------------:|:---------------:|:----------------------------:|
+|`@Gar6z`        |José Garcês      | **Desenvolvedor de Software** (Outras funções: Criar os diagramas) | 
+|`@Kazinho09`    |Kauê Xavier      | **Desenvolvedor de Software** (Outras funções: Organizar a documentação e criar diagramas) | 
+|`@Mavie0905`    |Mateus Vieira    | **Designer** e **Desenvolvedor de Software** (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas) | 
+|`@Javak13`      |Michel Cardoso   | **Analista de Software** (Outras funções: Organizar a documentação e criar diagramas) | 
+|`@PedroCLCabral`|Pedro Cabral     | **Database Administrator** (Outras funções: Organizar a documentação e criar diagramas) | 
+|`@Mariaklaranunesmartins`|Maria Klara   | **Database Administrator** (Outras funções: Organizar a documentação) | 
