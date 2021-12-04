@@ -11,7 +11,7 @@ Um calendário onde os administradores (professores) podem adicionar eventos e a
 |:--------------:|:---------------:|:----------------------------:|
 |`@Gar6z`        |José Garcês      | **Desenvolvedor de Software** (Outras funções: Criar os diagramas) | 
 |`@Kazinho09`    |Kauê Xavier      | **Desenvolvedor de Software** (Outras funções: Organizar a documentação e criar diagramas) | 
+|`@Mariaklaranunesmartins`|Maria Klara   | **Database Administrator** (Outras funções: Organizar a documentação) | 
 |`@Mavie0905`    |Mateus Vieira    | **Designer** e **Desenvolvedor de Software** (Outras funções: Manter o GITHUB atualizado e dentro das orientações, distribuir novas tarefas) | 
 |`@Javak13`      |Michel Cardoso   | **Analista de Software** (Outras funções: Organizar a documentação e criar diagramas) | 
 |`@PedroCLCabral`|Pedro Cabral     | **Database Administrator** (Outras funções: Organizar a documentação e criar diagramas) | 
-|`@Mariaklaranunesmartins`|Maria Klara   | **Database Administrator** (Outras funções: Organizar a documentação) | 
