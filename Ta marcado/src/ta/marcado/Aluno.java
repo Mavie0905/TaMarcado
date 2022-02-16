@@ -2,10 +2,10 @@ package ta.marcado;
 
 import java.util.Scanner;
 
-public class Aluno{
-    
+public class Aluno {
+
     Scanner sc = new Scanner(System.in);
-    
+
     //Dados pessoais
     private String nome; //nome, idade e turma são dados do usuário que pode ser que a gente utilize mais para frente
     private int idade;
@@ -16,46 +16,65 @@ public class Aluno{
     //Ações
     private boolean marcarAtvConcluida;
     private boolean solicitarModifPrazo;
-    
-    
-    public Aluno(String nome, int idade, String turma, String matricula, String senha){
-        
+
+    public Aluno(String nome, int idade, String turma, String matricula, String senha) {
+
     }
-    
-    public Aluno(String nome){
-        this.nome = nome;        
+
+    public Aluno(String nome) {
+        this.nome = nome;
     }
-    
-    
-    public void menuAluno(){
-        System.out.println("Olá " + this.nome + ", o que deseja realizar? \n"
-                + "1 - Abrir o Calendário\n"
-                + "2 - Abrir Perfil");
-        int opcao = Integer.parseInt(sc.nextLine());
-        
-        if(opcao == 1){
-            //Chamar o método responsável por abrir o calendário
-        }else if(opcao == 2){
-            //Chamar o método responsável por abrir o perfil do usuário
+
+    public void menuAluno() {
+        while (true) {
+            System.out.println("Olá " + this.nome + ", o que deseja realizar? \n"
+                    + "1 - Abrir o Calendário\n"
+                    + "2 - Abrir Perfil\n"
+                    + "3 - Adicionar Post-It\n"
+                    + "0 - Encerrar programa");
+            int opcao = Integer.parseInt(sc.nextLine());
+
+            if (opcao == 1) {
+                System.out.println("Calendário: \n");
+                for (int i = 0; i < Calendario.listaAtividade.size(); i++) {
+                    System.out.println(Calendario.listaAtividade.get(i).getDados(i));
+                }
+                System.out.println("Deseja pedir mais prazo para alguma atividade?\n"
+                        + "Sim - 1\n"
+                        + "Não - Presione qualquer tecla");
+                int alternativa = Integer.parseInt(sc.nextLine());
+
+                if (alternativa == 1) {
+                    Pedido ped = new Pedido(Pedido.solicitaNumAtividade(), Pedido.solicitaDias());
+                }
+
+            } else if (opcao == 2) {
+                //Chamar o método responsável por abrir o perfil do usuário
+            } else if (opcao == 3) {
+                Lembrete lemb = new Lembrete(Lembrete.solicitaDescricao());
+            } else {
+                break;
+            }
         }
     }
-    
-    
-    public void visualizarAtividades (){
+
+    public void visualizarAtividades() {
         //Obs: realizar um if para verificar se o login foi efetuado para proceder o método
     }
-    public void marcarAtividadesFeitas(){
+
+    public void marcarAtividadesFeitas() {
         //Aqui o aluno poderá marcar alguma atividade como feita e sua coloração mudará
     }
 
     /**
      *
      */
-    public void negociarPrazo (){
+    public void negociarPrazo() {
         //Um método sobreposto de Professores
         //Aqui será uma forma do aluno e do professor se comunicarem para modificar ou não o prazo de entrega da atividade
     }
-    public void recuperarSenha (){
+
+    public void recuperarSenha() {
         //Aqui o aluno poderá tentar recuperar sua senha caso não consiga efetuar o login na plataforma
     }
 
@@ -156,7 +175,5 @@ public class Aluno{
     public void setSolicitarModifPrazo(boolean solicitarModifPrazo) {
         this.solicitarModifPrazo = solicitarModifPrazo;
     }
-    
-    
-    
+
 }

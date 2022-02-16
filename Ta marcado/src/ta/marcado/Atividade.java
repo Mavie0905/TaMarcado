@@ -29,11 +29,12 @@ public class Atividade {
     }
     
     public String getDados(int posicao){
-        String dados= "Nome da atividade" + posicao + ":" + this.getNomeAtv()
+        String dados= "Nome da atividade nº" + posicao + ": " + this.getNomeAtv()
                 +"\nDescrição: " +  this.getDescricao()
                 +"\nMatéria: " + this.getMateria()
                 +"\nData de entrega: " + this.getDataEntrega().getTime()
-                +"\nData de postagem no calendário: " + this.getDataPostagem().getTime();
+                +"\nData de postagem no calendário: " + this.getDataPostagem().getTime()
+                +"\n";
         
         return dados;
     }
@@ -64,6 +65,21 @@ public class Atividade {
 
             SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
             String data = sc.nextLine();
+            dataEntrega = Calendar.getInstance();
+            dataEntrega.setTime(formatoData.parse(data));
+
+        } catch (Exception e) {
+            
+        }
+        return dataEntrega;
+    }
+    
+    public static Calendar simulaDataEntrega(String a) {
+        Calendar dataEntrega = Calendar.getInstance();
+        try {
+
+            SimpleDateFormat formatoData = new SimpleDateFormat("dd/MM/yyyy");
+            String data = a;
             dataEntrega = Calendar.getInstance();
             dataEntrega.setTime(formatoData.parse(data));
 
