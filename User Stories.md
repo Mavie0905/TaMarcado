@@ -6,13 +6,13 @@
 |-----------| --------- | ------------------------------------------------------------ |
 |:heavy_check_mark:        | **US01** | Como um professor, eu gostaria de ter acesso a edição (criar, editar e deletar) das atividades do calendário para que eu possa inserir e modificar atividades |
 |:heavy_check_mark:           | **US02** | Como um professor, eu gostaria de poder ver se já existem atividades em uma determinada data para que eu possa saber se os alunos já tem algo para aquele dia |
-|           | **US03** | Como uma aluna, eu gostaria de ver as atividades de cada matéria separadamente para poder focar melhor em matérias que preciso de mais nota |
+|:x:           | **US03** | Como uma aluna, eu gostaria de ver as atividades de cada matéria separadamente para poder focar melhor em matérias que preciso de mais nota |
 |:heavy_check_mark:           | **US04** | Como uma aluna, eu gostaria de solicitar mais prazo para algumas atividades para o caso de não conseguir realizar alguma a tempo  |
 |:heavy_check_mark:           | **US05**| Como uma aluna, eu gostaria de ser notificada quando novas atividades forem definidas para que eu possa me organizar melhor|
 |:heavy_check_mark:          | **US06** | Como uma aluna, eu gostaria de ver todas as atividades que estão pendentes em um só lugar para não ter o trabalho de ir ver em cada matéria |
-|           | **US07** | Como uma aluna, eu gostaria de poder marcar as atividades que eu já fiz para poder separar o que preciso fazer e o que já foi feito |
+|:x:           | **US07** | Como uma aluna, eu gostaria de poder marcar as atividades que eu já fiz para poder separar o que preciso fazer e o que já foi feito |
 |:heavy_check_mark:           | **US08** | Como usuários gerais, nós gostaríamos de ter acesso a diferentes perfis com permissões dedicadas a cada tipo de perfil  |
-|           | **US09** | Como um professor, eu gostaria de ter a possibilidade de inserir/indicar: links, vídeos, livros em PDF e artigos através de uma aba no calendário.|
+|:x:           | **US09** | Como um professor, eu gostaria de ter a possibilidade de inserir/indicar: links, vídeos, livros em PDF e artigos através de uma aba no calendário.|
 |:skull_and_crossbones:           | ~~**US10**~~ | ~~Como um aluno (a), eu gostaria de organizar a ordem das matérias da minha forma.~~|
 |:heavy_check_mark:           | **US11** | Como um aluno (a), eu gostaria de um bloco de notas (Post it), para que eu possa fazer alguma anotação necessária e deixar salva no próprio calendário.|
 |:skull_and_crossbones:           | ~~**US12**~~ | ~~Como um aluno (a), eu gostaria de poder compartilhar algumas atividades do calendário para outros APPs (Instagram, Whatsaap, Telegram, Drive, Word, Email).~~|
