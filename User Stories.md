@@ -17,7 +17,7 @@
 | **US11** | Como um aluno (a), eu gostaria de um bloco de notas (Post it), para que eu possa fazer alguma anotação necessária e deixar salva no próprio calendário.
 | ~~**US12**~~ | ~~Como um aluno (a), eu gostaria de poder compartilhar algumas atividades do calendário para outros APPs (Instagram, Whatsaap, Telegram, Drive, Word, Email).~~
 
->Os Us's que estão tachados (~~exemplo~~) foram descartados pro projeto
+>Os Us's que estão tachados (~~exemplo~~) foram descartados do projeto.
 
 
 
