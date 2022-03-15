@@ -6,7 +6,7 @@
 |-----------| --------- | ------------------------------------------------------------ |
 |:heavy_check_mark:        | **US01** | Como um professor, eu gostaria de ter acesso a edição (criar, editar e deletar) das atividades do calendário para que eu possa inserir e modificar atividades |
 |:heavy_check_mark:           | **US02** | Como um professor, eu gostaria de poder ver se já existem atividades em uma determinada data para que eu possa saber se os alunos já tem algo para aquele dia |
-|:x:           | **US03** | Como uma aluna, eu gostaria de ver as atividades de cada matéria separadamente para poder focar melhor em matérias que preciso de mais nota |
+|:heavy_check_mark:           | **US03** | Como uma aluna, eu gostaria de ver as atividades de cada matéria separadamente para poder focar melhor em matérias que preciso de mais nota |
 |:heavy_check_mark:           | **US04** | Como uma aluna, eu gostaria de solicitar mais prazo para algumas atividades para o caso de não conseguir realizar alguma a tempo  |
 |:heavy_check_mark:           | **US05**| Como uma aluna, eu gostaria de ser notificada quando novas atividades forem definidas para que eu possa me organizar melhor|
 |:heavy_check_mark:          | **US06** | Como uma aluna, eu gostaria de ver todas as atividades que estão pendentes em um só lugar para não ter o trabalho de ir ver em cada matéria |
