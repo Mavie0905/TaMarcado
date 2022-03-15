@@ -8,7 +8,7 @@
 | **US02** | Como um professor, eu gostaria de poder ver se já existem atividades em uma determinada data para que eu possa saber se os alunos já tem algo para aquele dia |
 | **US03** | Como uma aluna, eu gostaria de ver as atividades de cada matéria separadamente para poder focar melhor em matérias que preciso de mais nota |
 | **US04** | Como uma aluna, eu gostaria de solicitar mais prazo para algumas atividades para o caso de não conseguir realizar alguma a tempo  |
-| ~~**US05** ~~| ~~Como uma aluna, eu gostaria de ser notificada quando novas atividades forem definidas para que eu possa me organizar melhor ~~|
+| ~~**US05**~~| ~~Como uma aluna, eu gostaria de ser notificada quando novas atividades forem definidas para que eu possa me organizar melhor~~|
 | **US06** | Como uma aluna, eu gostaria de ver todas as atividades que estão pendentes em um só lugar para não ter o trabalho de ir ver em cada matéria |
 | **US07** | Como uma aluna, eu gostaria de poder marcar as atividades que eu já fiz para poder separar o que preciso fazer e o que já foi feito |
 | **US08** | Como usuários gerais, nós gostaríamos de ter acesso a diferentes perfis com permissões dedicadas a cada tipo de perfil  
@@ -17,7 +17,7 @@
 | **US11** | Como um aluno (a), eu gostaria de um bloco de notas (Post it), para que eu possa fazer alguma anotação necessária e deixar salva no próprio calendário.
 | ~~**US12**~~ | ~~Como um aluno (a), eu gostaria de poder compartilhar algumas atividades do calendário para outros APPs (Instagram, Whatsaap, Telegram, Drive, Word, Email).~~
 
-
+>Os Us's que estão tachados (~~exemplo~~) foram descartados pro projeto
 
 
 
