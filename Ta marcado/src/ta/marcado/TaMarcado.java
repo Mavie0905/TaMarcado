@@ -14,11 +14,13 @@ public class TaMarcado {
                 + "(ESTE SOFTWATE VISA AJUDAR O GERENCIAMENTO DAS ATIVIDADES PELOS PROFESSORES E FACILITAR A VIDA DOS ALUNOS AO VERIFICAR SUAS OBRIGAÇÕES)\n");
 
         System.out.println("User Stories implementados:\n"
-                + "US01: EDIÇÃO (apenas a inserção) DE ATIVIDADES NO CALENDÁRIO\n"
+                + "US01: EDIÇÃO DE ATIVIDADES NO CALENDÁRIO (apenas a inserção)\n"
                 + "US02: BUSCA DE ATIVIDADES\n"
                 + "US04: SOLICITAÇÃO DE PRAZO\n"
                 + "US06: LISTAR TODAS AS ATIVIDADES\n"
+                + "US07: MARCAR ATIVIDADES FEITAS\n"
                 + "US08: LOGIN POR PAPEL ESCOLAR\n"
+                + "US09: INSERIR/INDICAR LINKS PELO CALENDÁRIO\n"
                 + "US11: FUNÇÃO DE POST-IT\n");
 
         System.out.println("[INÍCIO DO SOFTWARE]");
@@ -41,27 +43,6 @@ public class TaMarcado {
         } else if (papel == 2) {
             System.out.print("Seu nome: ");
             Professor professor = new Professor(sc.nextLine());
-
-            //colocar este trecho na classe Professor
-            for (int x = 1; true; x++) {
-
-                System.out.print("Menu:\n"
-                        + "Inserir atividade - 1\n"
-                        + "Parar de inserir atividade - 0\n"
-                        + "Opção: ");
-                int opcao = Integer.parseInt(sc.nextLine());
-
-                if (opcao == 1) {
-                    Atividade atv = new Atividade(Atividade.solicitaMateria(), Atividade.solicitaNomeAtv(), Atividade.solicitaDescricao(), Atividade.solicitaDataEntrega());
-                    System.out.printf("Data de entrega definida para:  %tT | %tD\n\n", atv.getDataEntrega(), atv.getDataEntrega());
-                } else if (opcao == 0) {
-                    break;
-                } else {
-                    //Se opção selecionada for diferente de 0 e 1, solicite novamente
-                    System.out.println("\nValor inválido. Tente Novamente\n");
-                    x -= 1;
-                }
-            }
         }
         
         System.out.println("Fim da execução\n"

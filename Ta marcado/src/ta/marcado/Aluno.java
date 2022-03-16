@@ -11,12 +11,14 @@ public class Aluno {
     private int idade;
     private String turma;
     //Dados cadastrais
-    private String matricula;
-    private String senha;
+    private String mensagem;
+
     //Ações
     private boolean marcarAtvConcluida;
     private boolean solicitarModifPrazo;
 
+    Professor professor = new Professor();
+    
     public Aluno(String nome, int idade, String turma, String matricula, String senha) {
 
     }
@@ -25,12 +27,16 @@ public class Aluno {
         this.nome = nome;
     }
 
+    Aluno() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public void menuAluno() {
         while (true) {
             System.out.println("Olá " + this.nome + ", o que deseja realizar? \n"
                     + "1 - Abrir o Calendário\n"
-                    + "2 - Abrir Perfil\n"
-                    + "3 - Adicionar Post-It\n"
+                    + "2 - Adicionar Post-It\n"
+                    + "3 - Marcar atividades feitas\n"
                     + "0 - Encerrar programa");
             int opcao = Integer.parseInt(sc.nextLine());
 
@@ -47,40 +53,48 @@ public class Aluno {
                 if (alternativa == 1) {
                     Pedido ped = new Pedido(Pedido.solicitaNumAtividade(), Pedido.solicitaDias());
                 }
-
             } else if (opcao == 2) {
-                //Chamar o método responsável por abrir o perfil do usuário
-            } else if (opcao == 3) {
                 Lembrete lemb = new Lembrete(Lembrete.solicitaDescricao());
+            }else if (opcao == 3) {
+                marcarAtividadesFeitas();
             } else {
                 break;
             }
         }
     }
+    
+    public void marcarAtividadesFeitas() {
+        System.out.println("O calendário será aberto.\n"
+                + "Calendário: \n");
+                for (int i = 0; i < Calendario.listaAtividade.size(); i++) {
+                    System.out.println(Calendario.listaAtividade.get(i).getDados(i));
+                }
+        System.out.println("Escolha a atividade que deseja marcar como feita.\n"
+                + "1 - Português, Seminário sobre o Trovadorismo\n"
+                + "2 - Matemática, Lista de Equações de segundo grau");
+        int numb = Integer.parseInt(sc.nextLine());
+        System.out.println("A atividade foi marcada e mudou de cor.");
+        
+    }
 
     public void visualizarAtividades() {
-        //Obs: realizar um if para verificar se o login foi efetuado para proceder o método
+        System.out.println("Essas são suas atividades.\nCalendário: \n");
+        for (int i = 0; i < Calendario.listaAtividade.size(); i++) {
+            System.out.println(Calendario.listaAtividade.get(i).getDados(i));
+        }
     }
 
-    public void marcarAtividadesFeitas() {
-        //Aqui o aluno poderá marcar alguma atividade como feita e sua coloração mudará
-    }
-
-    /**
-     *
-     */
     public void negociarPrazo() {
-        //Um método sobreposto de Professores
-        //Aqui será uma forma do aluno e do professor se comunicarem para modificar ou não o prazo de entrega da atividade
+        System.out.println("Escreva uma mensagem para seu professor.\n");
+        setMensagem(sc.nextLine());
+        System.out.println("Quando o professor responder sua mensagem você será comunicado.");
+        System.out.println("Mensagens não lidas." + professor.getMensagem());
     }
 
     public void recuperarSenha() {
         //Aqui o aluno poderá tentar recuperar sua senha caso não consiga efetuar o login na plataforma
     }
-
-    /**
-     * @return the nome
-     */
+    
     public String getNome() {
         return nome;
     }
@@ -120,37 +134,6 @@ public class Aluno {
         this.turma = turma;
     }
 
-    /**
-     * @return the matricula
-     */
-    public String getMatricula() {
-        return matricula;
-    }
-
-    /**
-     * @param matricula the matricula to set
-     */
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
-    /**
-     * @return the senha
-     */
-    public String getSenha() {
-        return senha;
-    }
-
-    /**
-     * @param senha the senha to set
-     */
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
-
-    /**
-     * @return the marcarAtvConcluida
-     */
     public boolean isMarcarAtvConcluida() {
         return marcarAtvConcluida;
     }
@@ -174,6 +157,14 @@ public class Aluno {
      */
     public void setSolicitarModifPrazo(boolean solicitarModifPrazo) {
         this.solicitarModifPrazo = solicitarModifPrazo;
+    }
+    
+    public String getMensagem() {
+        return mensagem;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
     }
 
 }
